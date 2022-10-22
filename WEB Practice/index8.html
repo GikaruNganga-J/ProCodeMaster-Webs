@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="say hello to the world using a button click"
+    />
+    <meta name="author" content="Gikaru Ng'ang'a" />
+    <meta name="keywords" content="..." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Say Hello</title>
+    <script>
+      function sayhello() {
+        document.write("Hello World");
+      }
+      function thankyou() {
+        alert("Thank you for saying Hello");
+      }
+    </script>
+  </head>
+  <body>
+    <p>Click here to say Hello</p>
+    <form>
+      <input type="button" onclick="sayhello()" value="Say Hello" />
+      <input type="button" onclick="thankyou()" value="Thanks" />
+    </form>
+  </body>
+</html>
